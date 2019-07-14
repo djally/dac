@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-register --require babel-polyfill ./tests/ --exit",
-    "dev": "nodemon --exec babel-node app.js"
+    "dev": "nodemon --exec babel-node src/index.js",
+    "create_tables": "sequelize db:migrate",
+    "drop_tables": "sequelize db:migrate:undo:all"
   },
   "repository": {
     "type": "git",
