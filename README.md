@@ -1,4 +1,6 @@
-# data analysis and communication [![Build Status](https://travis-ci.org/djally/dac.svg?branch=develop)](https://travis-ci.org/djally/dac)
+[![Build Status](https://travis-ci.org/djally/dac.svg?branch=develop)](https://travis-ci.org/djally/dac)
+[![Coverage Status](https://coveralls.io/repos/github/djally/dac/badge.svg?branch=develop)](https://coveralls.io/github/djally/dac?branch=develop)
+# data analysis and communication 
 Have you ever felt like a phone call that's been disconnected? Give a chance to call you please and I will give you important things in your life
 ### Description
 data analysis and communication project is a platform where customers are able to call, send message to their members also manage possible activities for their members and themselves.
