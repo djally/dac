@@ -1,0 +1,33 @@
+{
+  "name": "dac",
+  "version": "1.0.0",
+  "description": "Have you ever felt like a phone call that's been disconnected? Give a chance to call you please and I will give you important things in your life ### Description data analysis and communication project is a platform where customers are able to call, send message to their members also manage possible activities for their members and themselves.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register --require babel-polyfill ./tests/ --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djally/dac.git"
+  },
+  "keywords": [],
+  "author": "Karangwa Hirwa Julien <juliushirwa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djally/dac/issues"
+  },
+  "homepage": "https://github.com/djally/dac#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "coveralls": "^3.0.5",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
