@@ -24,7 +24,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "coveralls": "^3.0.5",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
   },
   "dependencies": {
     "mocha": "^6.1.4",
