@@ -6,8 +6,14 @@ Have you ever felt like a phone call that's been disconnected? Give a chance to 
 data analysis and communication project is a platform where customers are able to call, send message to their members also manage possible activities for their members and themselves.
 
 ### Setup
-> this must be PREN project which must have travis connected to it and coveralls
-> add all possible configuration needed here.
+- installation
+```
+> npm install
+```
+- create database
+```
+> createdb dac_db
+```
 ### API Spec
 
 The preferred JSON object to be returned by the API should be structured as follows:
